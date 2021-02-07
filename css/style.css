@@ -112,14 +112,22 @@ figure {
     border-radius: 50%; }
   #colorlib-aside .position {
     display: block;
-    margin-bottom: 2em;
+    margin-bottom: 0.8em;
     font-size: 12px;
     text-transform: uppercase; }
+  #colorlib-aside .location {
+    display: block;
+    font-size: 12px;
+  }
+  #colorlib-aside .email {
+    display: block;
+    font-size: 12px;
+  }
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
     font-size: 22px;
-    margin-bottom: .5em;
+    margin-bottom: .2em;
     display: block;
     width: 100%; }
     #colorlib-aside #colorlib-logo a {
@@ -224,7 +232,7 @@ figure {
             color: #2c98f0; }
 
 .container-wrap {
-  max-width: 1170px;
+  width: 100%;
   margin: 0 auto; }
 
 #colorlib-main {
@@ -243,7 +251,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 2em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -388,8 +396,8 @@ body.offcanvas {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 9em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -402,8 +410,8 @@ body.offcanvas {
     .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .author-img {
   background-size: cover;
@@ -413,7 +421,7 @@ body.offcanvas {
 
 .colorlib-heading {
   font-size: 18px;
-  margin-bottom: 4em;
+  margin-bottom: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -444,6 +452,10 @@ body.offcanvas {
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500; }
+
+.add-space {
+  padding-bottom: 80px;
+}
 
 .hire {
   padding: 2em;
@@ -567,7 +579,7 @@ body.offcanvas {
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
     color: #fff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
-    background: #ec5453; }
+    background: #ffffff; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3 {
     background: #f9bf3f; }
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-4 {
